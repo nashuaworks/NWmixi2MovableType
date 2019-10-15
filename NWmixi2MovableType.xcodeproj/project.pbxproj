@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B140BDC123514CE600D84C76 /* NWmixi2MT.swift in Sources */ = {isa = PBXBuildFile; fileRef = B140BDC023514CE600D84C76 /* NWmixi2MT.swift */; };
+		B175C4C0234C7E6800EC538B /* NWGetFilePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175C4BF234C7E6800EC538B /* NWGetFilePath.swift */; };
+		B175C4C2234DBC0400EC538B /* NWReadFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B175C4C1234DBC0400EC538B /* NWReadFile.swift */; };
 		B1B64049234C6BF80086CE33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B64048234C6BF80086CE33 /* AppDelegate.swift */; };
 		B1B6404B234C6BF80086CE33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6404A234C6BF80086CE33 /* ViewController.swift */; };
 		B1B6404D234C6BFD0086CE33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B6404C234C6BFD0086CE33 /* Assets.xcassets */; };
@@ -25,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B140BDC023514CE600D84C76 /* NWmixi2MT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWmixi2MT.swift; sourceTree = "<group>"; };
+		B175C4BF234C7E6800EC538B /* NWGetFilePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWGetFilePath.swift; sourceTree = "<group>"; };
+		B175C4C1234DBC0400EC538B /* NWReadFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWReadFile.swift; sourceTree = "<group>"; };
 		B1B64045234C6BF80086CE33 /* NWmixi2MovableType.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NWmixi2MovableType.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B64048234C6BF80086CE33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1B6404A234C6BF80086CE33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +84,9 @@
 			children = (
 				B1B64048234C6BF80086CE33 /* AppDelegate.swift */,
 				B1B6404A234C6BF80086CE33 /* ViewController.swift */,
+				B140BDC023514CE600D84C76 /* NWmixi2MT.swift */,
+				B175C4C1234DBC0400EC538B /* NWReadFile.swift */,
+				B175C4BF234C7E6800EC538B /* NWGetFilePath.swift */,
 				B1B6404C234C6BFD0086CE33 /* Assets.xcassets */,
 				B1B6404E234C6BFD0086CE33 /* Main.storyboard */,
 				B1B64051234C6BFD0086CE33 /* Info.plist */,
@@ -195,8 +204,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B140BDC123514CE600D84C76 /* NWmixi2MT.swift in Sources */,
+				B175C4C2234DBC0400EC538B /* NWReadFile.swift in Sources */,
 				B1B6404B234C6BF80086CE33 /* ViewController.swift in Sources */,
 				B1B64049234C6BF80086CE33 /* AppDelegate.swift in Sources */,
+				B175C4C0234C7E6800EC538B /* NWGetFilePath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
